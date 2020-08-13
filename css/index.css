@@ -1,0 +1,98 @@
+/* 
+  style for all pages
+*/
+body {
+  font-family: 'Droid Arabic Kufi' , serif;
+  background: rgb(1, 24, 42);
+  color: #fff;
+  font-size: 18px;;
+  background: radial-gradient(circle, rgba(1, 24, 42, 0.55) 0%, rgba(1, 24, 42, 0.8) 54%, rgba(1, 24, 42, 1) 99%);
+}
+.header {
+  text-align: center;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.header img {
+  height: 48px;
+}
+.header .languge {
+  line-height: 3;
+}
+.header .languge a:hover {
+  text-decoration: none;
+}
+.header .user a {
+  line-height: 3;
+}
+.header .user a:hover {
+  text-decoration: none;
+}
+.form-control {
+  height: calc(1.5em + .75rem + 7px);
+}
+
+/* 
+  start page login
+*/
+
+
+/* 
+ end page login
+*/
+/* 
+  page registration
+*/
+
+.title-content span {
+  font-size: 30px;
+}
+ .title-content::before {
+  position: absolute;
+  bottom: 0px;
+  top: 170px;
+  content: "";
+  height: 5px;
+  width: 215px;
+  background: #f28d1e;
+  border-radius: 5px;
+  transition: left ease-in-out 0.3s;
+}
+
+ form .btn-primary {
+  border: 2px solid #f28d1e;
+  background: #f28d1e;
+  border-radius: 50px;
+  padding: 5px 20px;
+  float: right;
+}
+.form-check {
+  padding-right: 1.25rem;
+}
+.form-check-input {
+  margin-right: -1.25rem;
+}
+.form-group {
+  margin-bottom: 2rem;
+  text-align: right;
+}
+/* 
+  end page registration
+*/
+
+
+/* 
+   
+*/
+
+ /* 
+ footer
+*/
+footer {
+  background: rgba(255, 255, 255, 0.705);
+  color: #01182a;
+}
+ /* 
+ footer
+*/
